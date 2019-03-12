@@ -1,0 +1,15 @@
+### Exercises
+
+Create a file called basic_node_app_answers.txt and put your answers in the file.
+
+>What is a Node module?
+
+A node module is a set of functions that you can include in your application. You can use built in modules and or create your own custom modules.
+
+>What is the main difference between exports and module.exports?
+
+module.exports is the object returned from the require function. "exports" is a reference to module.exports. When using "exports", it is never returned, it is only a reference to module.exports. 
+
+>Why is using exports recommended?
+
+Unless you are creating a module that is a specific object type, you can skip module.exports and use exports. 
